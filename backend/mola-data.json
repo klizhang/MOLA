@@ -1,0 +1,1542 @@
+[
+      {
+            "title": "Hate Speech Classifiers Learn Normative Social Stereotypes",
+            "href": "https://mola-lab.squarespace.com/s/3955-davani-finalversion.pdf",
+            "description": "Davani, A. M., Atari, M., Kennedy, B., & Dehghani, M. (2023). Hate Speech Classifiers Learn Normative Social Stereotypes. Transactions of the Association for Computational Linguistics.",
+            "italics": "<em>Transactions of the Association for Computational Linguistics.</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/davani2023hate.bib",
+            "osf": null,
+            "publishDate": "2023",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "hate",
+                  "language",
+                  "fairness-in-ai",
+                  "modeling"
+            ]
+      },
+      {
+            "title": "The Moral Foundations Reddit Corpus",
+            "href": "https://mola-lab.squarespace.com/s/2208.05545.pdf",
+            "description": "Trager, J., Ziabari, A. S., Davani, A. M., Golazazian, P., Karimi-Malekabadi, F., Omrani, A., ... & Dehghani, M. (2022). The Moral Foundations Reddit Corpus. arXiv preprint arXiv:2208.05545.",
+            "italics": "<em>arXiv preprint arXiv:2208.05545</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/MFRC.bib",
+            "osf": null,
+            "publishDate": "2023",
+            "type": "Preprint",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "The Sins of the Parents Are to Be Laid Upon the Children: Biased Humans, Biased Data, Biased Models",
+            "href": "https://mola-lab.squarespace.com/s/Bias_and_Machine_Learning.pdf",
+            "description": "Osborne, M., Omrani, A., & Dehghani, M. (2022). The Sins of the Parents Are to Be Laid Upon the Children: Biased Humans, Biased Data, Biased Models. PsyArXiv preprint",
+            "italics": "<em>PsyArXiv preprint</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/osborne2022sins.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Preprint",
+            "topic": [
+                  "all",
+                  "fairness-in-ai"
+            ]
+      },
+      {
+            "title": "The (Moral) Language of Hate",
+            "href": "https://mola-lab.squarespace.com/s/Morality_and_Hate_Speech.pdf",
+            "description": "Kennedy, B., Golazizian, P., Trager, J., Atari, M., Hoover, J., Davani, A. M., & Dehghani, M. (2022). The (Moral) Language of Hate. PsyArXiv preprint",
+            "italics": "<em>PsyArXiv preprint</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/kennedy2022moral.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Preprint",
+            "topic": [
+                  "all",
+                  "hate",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Morality Beyond the WEIRD: How the Nomological Network of Morality Varies Across Cultures",
+            "href": "https://mola-lab.squarespace.com/s/MFQ-2-Preprint.pdf",
+            "description": "Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S. T., & Dehghani, M. (2022). Morality Beyond the WEIRD: How the Nomological Network of Morality Varies Across Cultures. PsyArXiv preprint",
+            "italics": "<em>PsyArXiv preprint</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/atari2022MFQ2.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Preprint",
+            "topic": [
+                  "all",
+                  "morality",
+                  "culture"
+            ]
+      },
+      {
+            "title": "Pathogens Are Linked to Human Moral Systems Across Time and Space",
+            "href": "https://mola-lab.squarespace.com/s/1-s2.0-S2666622722000272-main.pdf",
+            "description": "Atari, M., Reimer, N. K., Graham, J., Hoover, J., Kennedy, B., Davani, A. M., ... & Dehghani, M. (2022). Pathogens are linked to human moral systems across time and space. Current Research in Ecological and Social Psychology, 3, 100060.",
+            "italics": "<em>Current Research in Ecological and Social Psychology</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/atari2022pathogens.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "culture",
+                  "geo-spatial",
+                  "language"
+            ]
+      },
+      {
+            "title": "Introducing the Gab Hate Corpus: Defining and Applying Hate-based Rhetoric to Social Media Posts",
+            "href": "https://mola-lab.squarespace.com/s/s10579-021-09569-x.pdf",
+            "description": "Kennedy, B., Atari, M., Davani, A. M., Yeh, L., Omrani, A., Kim, Y., ... & Dehghani, M. (2022). Introducing the Gab Hate Corpus: defining and applying hate-based rhetoric to social media posts at scale.\u00a0Language Resources and Evaluation,\u00a056(1), 79-108.",
+            "italics": "<em>Language Resources and Evaluation</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/kennedy2022introducing.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "hate",
+                  "language"
+            ]
+      },
+      {
+            "title": "Moral Values Predict County-level Covid-19 Vaccination Rates in the United States.",
+            "href": "https://mola-lab.squarespace.com/s/2022-96483-002.pdf",
+            "description": "Reimer, N. K., Atari, M., Karimi-Malekabadi, F., Trager, J., Kennedy, B., Graham, J., & Dehghani, M. (2022). Moral values predict county-level COVID-19 vaccination rates in the United States. American Psychologist, 77(6), 743.",
+            "italics": "<em>American Psychologist</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/reimer2022moral.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "geo-spatial"
+            ]
+      },
+      {
+            "title": "Morality",
+            "href": "https://mola-lab.squarespace.com/s/mobile-sensing.pdf",
+            "description": "Karimi-Malekabadi, F., Atari, M., & Dehghani, M. (in press). In M. Mehl, M. Eid, C. Wrzus, G. Harari, U. & Ebner-Priemer (Eds.), Mobile Sensing in Psychology: Methods and Applications. NY: Guilford Press.bib ",
+            "italics": "<em>Mobile Sensing in Psychology: Methods and Applications</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/mobile-sensing.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Book Chapter",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Language Analysis in Moral Psychology",
+            "href": "https://mola-lab.squarespace.com/s/language-analysis-in-moral-psychology.pdf",
+            "description": "Atari, M. & Dehghani, M. (2022). In M. Dehghani & R. Boyd (Eds.), Handbook of Language Analysis in Psychology. New York: Guilford.bib",
+            "italics": "<em>Handbook of Language Analysis in Psychology</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/language-analysis-in-moral-psychology.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Book Chapter",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Handbook of Language Analysis in Psychology",
+            "href": "https://www.guilford.com/books/Handbook-of-Language-Analysis-in-Psychology/Dehghani-Boyd/9781462548439",
+            "description": "Dehghani, M. & Boyd, R. (Ed.). (2022). Guilford Press.bib",
+            "italics": "None",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/the-atlas-of-language-analysis-in-psychology.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Book",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Text Analysis for Psychology: Methods, Principles, and Practices",
+            "href": "https://mola-lab.squarespace.com/s/text-analysis-for-psychology.pdf",
+            "description": "Kennedy, B., Ashokkumar, A., Boyd, R. & Dehghani, M. (2022). In M. Dehghani & R. Boyd (Eds.), Handbook of Language Analysis in Psychology. New York: Guilford.bib ",
+            "italics": "<em>Handbook of Language Analysis in Psychology</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/text-analysis-for-psychology.bib",
+            "osf": null,
+            "publishDate": "2022",
+            "type": "Book Chapter",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Morally Homogeneous Networks and Radicalism",
+            "href": "https://mola-lab.squarespace.com/s/morally-homogeneous-networks-and-radicalism-p9pt.pdf",
+            "description": "Atari, M., Mostafazadeh Davani, A., Kogon, D., Kennedy, B., Saxena, N. A., Anderson, I., Dehghani, M. (2021). Social Psychological and Personality Science.Supplementary material | bib | OSF",
+            "italics": "<em>Social Psychological and Personality Science</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/morally-homogeneous-networks-and-radicalism-sm.docx",
+            "bib": "https://mola-lab.squarespace.com/s/morally-homogeneous-networks-and-radicalism.bib",
+            "osf": "https://osf.io/q7f5r/",
+            "publishDate": "2021",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "hate",
+                  "social-networks",
+                  "morality",
+                  "language"
+            ]
+      },
+      {
+            "title": "Toward a Cumulative Science of Non-WEIRD Morality: A Reply to Rezvani Nejad et al.",
+            "href": "https://mola-lab.squarespace.com/s/toward-a-cumulative-science-of-non-weird-morality-a-reply-to-rezvani-nejad-et-al.pdf",
+            "description": "Atari, M., Graham, J., Dehghani, M. (2021). Evolution and Human Behavior. 42, 3.bib",
+            "italics": "<em>Evolution and Human Behavior</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/toward-a-cumulative-science-of-non-weird-morality-a-reply-to-rezvani-nejad-et-al.bib",
+            "osf": null,
+            "publishDate": "2021",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "culture",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Investigating the Role of Group-Based Morality in Extreme Behavioral Expressions of Prejudice",
+            "href": "https://doi.org/10.1038/s41467-021-24786-2",
+            "description": "Hoover, J., Atari, M., Mostafazadeh Davani, A., Kennedy, B., Portillo-Wightman, G., Yeh, L., Dehghani, M. (2021). Nature Communications. Vol. 12 (4585).Supplementary material | bib | OSF ",
+            "italics": "<em>Nature Communications</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/investigating-the-role-of-group-based-morality-in-extreme-behavioral-expressions-of-prejudice-sm.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/investigating-the-role-of-group-based-morality-in-extreme-behavioral-expressions-of-prejudice.bib",
+            "osf": "https://osf.io/67cdg/ ",
+            "publishDate": "2021",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "hate",
+                  "morality",
+                  "geo-spatial"
+            ]
+      },
+      {
+            "title": "Explaining Explainability: Interpretable Machine Learning for the Behavioral Sciences",
+            "href": "https://mola-lab.squarespace.com/s/explaining-explainability.pdf",
+            "description": "Kennedy, B., Reimer, N. K., & Dehghani, M. (2021).\u00a0PsyArXiv.bib",
+            "italics": "None",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/explaining-explainability.bib",
+            "osf": null,
+            "publishDate": "2021",
+            "type": "Preprint",
+            "topic": [
+                  "all",
+                  "method"
+            ]
+      },
+      {
+            "title": "Moral Concerns Are Differentially Observable in Language",
+            "href": "https://www.mola-lab.org/s/moral-concerns-are-differentially-observable-in-language-xnc9.pdf",
+            "description": "Kennedy, B., Atari, M., Mostafazadeh Davani, A., Hoover, J., Omrani, A., Graham, J., Dehghani, M. (2021). Cognition. Vol. 212.Supplementary material | bib | OSF | GitHub",
+            "italics": "<em>Cognition</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/moral-concerns-are-differentially-observable-in-language-sm-6j6k.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/moral-concerns-are-differentially-observable-in-language.bib",
+            "osf": "https://osf.io/jcuqk/",
+            "publishDate": "2021",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Improving Counterfactual Generation for Fair Hate Speech Detection",
+            "href": "https://mola-lab.squarespace.com/s/improving-counterfactual-generation-for-fair-hate-speech-detection.pdf",
+            "description": "Mostafazadeh Davani, A., Omrani, A., Kennedy, B., Atari, M., Ren, X., Dehghani, M. (2021). Proceedings of ACL\u2019s Workshop on Online Abuse and Harm.bib",
+            "italics": "<em>Proceedings of ACL\u2019s Workshop on Online Abuse and Harm</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/improving-counterfactual-generation-for-fair-hate-speech-detection.bib",
+            "osf": null,
+            "publishDate": "2021",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "counterfactuals",
+                  "language",
+                  "fairness-in-ai"
+            ]
+      },
+      {
+            "title": "Sex Differences in Moral Judgements Across 67 Countries",
+            "href": "https://mola-lab.squarespace.com/s/sex-differences-in-moral-judgements-across-67-countries.pdf",
+            "description": "Atari, M., Lai, M. H., Dehghani, M. (2020). Proceedings of the Royal Society B. Vol. 287.Supplementary material | bib",
+            "italics": "<em>Proceedings of the Royal Society B</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/sex-differences-in-moral-judgements-across-67-countries-sm.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/sex-differences-in-moral-judgements-across-67-countries.bib",
+            "osf": null,
+            "publishDate": "2020",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "culture",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Foundations of Morality in Iran",
+            "href": "https://mola-lab.squarespace.com/s/foundations-of-morality-in-iran.pdf",
+            "description": "Atari, M., Graham, J., Dehghani, M. (2020). Evolution and Human Behavior. Vol. 41 (5), pp. 367-384.bib",
+            "italics": "<em>Evolution and Human Behavior</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/foundations-of-morality-in-iran.bib",
+            "osf": null,
+            "publishDate": "2020",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "culture",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Do You Need a Roadmap or Can Someone Give You Directions: When School-Focused Possible Identities Change So Do Academic Trajectories",
+            "href": "https://mola-lab.squarespace.com/s/do-you-need-a-roadmap-or-can-someone-give-you-directions-when-school-focused-possible-identities-cha.pdf",
+            "description": "Horowitz, E., Oyserman, D., Dehghani, M., Sorensen, N. (2020). Journal of Adolescence. Vol. 79, pp. 26-38.bib",
+            "italics": "<em>Journal of Adolescence</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/do-you-need-a-roadmap-or-can-someone-give-you-directions-when-school-focused-possible-identities-cha.bib",
+            "osf": null,
+            "publishDate": "2020",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "education",
+                  "language"
+            ]
+      },
+      {
+            "title": "Contextualizing Hate Speech Classifiers with Post-hoc Explanation",
+            "href": "https://mola-lab.squarespace.com/s/contextualizing-hate-speech-classifiers-with-post-hoc-explanation-798k.pdf",
+            "description": "Kennedy, B., Jin, X., Mostafazadeh Davani, A., Dehghani, M., Ren, X. (2020). Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL).bib",
+            "italics": "<em>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/contextualizing-hate-speech-classifiers-with-post-hoc-explanation.bib",
+            "osf": null,
+            "publishDate": "2020",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "hate",
+                  "language"
+            ]
+      },
+      {
+            "title": "Body Maps of Moral Concerns",
+            "href": "https://mola-lab.squarespace.com/s/body-maps-of-moral-concerns.pdf",
+            "description": "Atari, M., Mostafazadeh Davani, A., Dehghani, M. (2019). Psychological Science. 31, 2.\u00a0bib | OSF ",
+            "italics": "<em>Psychological Science</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/body-maps-of-moral-concerns.bib",
+            "osf": "https://osf.io/4tdx5/",
+            "publishDate": "2019",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Modeling Performance Differences on Cognitive Tests Using LSTMs and Skip-Thought Vectors Trained on Reported Media Consumption",
+            "href": "https://www.mola-lab.org/s/modeling-performance-differences-on-cognitive-tests-using-LSTMs-and-skip-thought-vectors-trained-on.pdf",
+            "description": "Courtland, M., Mostafazadeh Davani, A., Reyes, M., Yeh, L., Leung, J., Kennedy, B., Dehghani, M., Zevin, J. (2019). Proceedings of NLP+CSS: Workshops on Natural Language Processing and Computational Social Science.bib",
+            "italics": "<em>Proceedings of NLP+CSS: Workshops on Natural Language Processing and Computational Social Science</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/modeling-performance-differences-on-cognitive-tests-using-LSTMs-and-skip-thought-vectors-trained-on.bib",
+            "osf": null,
+            "publishDate": "2019",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Subtle Differences in Language Experience Moderate Performance on Language-Based Cognitive Tests",
+            "href": "https://mola-lab.squarespace.com/s/subtle-differences-in-language-experience-moderate-performance-on-language-based-cognitive-tests.pdf",
+            "description": "Courtland, M., Mostafazadeh Davani, A., Reyes, M., Yeh, J., Leung, L., Kennedy, B., Dehghani, M., Zevin, J. (2019). Proceedings of 31st Annual Conference of the Cognitive Science Society.bib ",
+            "italics": "<em>Proceedings of 31st Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/subtle-differences-in-language-experience-moderate-performance-on-language-based-cognitive-tests.bib",
+            "osf": null,
+            "publishDate": "2019",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language",
+                  "modeling"
+            ]
+      },
+      {
+            "title": "Measuring the Importance of Context when Modeling Language Comprehension",
+            "href": "https://mola-lab.squarespace.com/s/measuring-the-importance-of-context-when-modeling-language-comprehension-behavior-research-methods.pdf",
+            "description": "Garten, J., Kennedy, B., Sagae, K., Dehghani, M. (2019). Behavior Research Methods. Vol. 51, pp. 480-492.Supplementary material | bib ",
+            "italics": "<em>Behavior Research Methods</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/measuring-the-importance-of-context-when-modeling-language-comprehension-behavior-research-methods-s.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/measuring-the-importance-of-context-when-modeling-language-comprehension-behavior-research-methods.bib",
+            "osf": null,
+            "publishDate": "2019",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "The Big, The Bad, and The Ugly: Geographic Estimation with Flawed Psychological Data",
+            "href": "https://www.mola-lab.org/s/the-big-the-bad-and-the-ugly-geographic-estimation-with-flawed-psychological-data-6zp6.pdf",
+            "description": "Hoover, J., Dehghani, M. (2019). Psychological Methods.Supplementary material | bib | OSF",
+            "italics": "<em>Psychological Methods</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/the-big-the-bad-and-the-ugly-geographic-estimation-with-flawed-psychological-data-sm-6a46.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/the-big-the-bad-and-the-ugly-geographic-estimation-with-flawed-psychological-data.bib",
+            "osf": "https://osf.io/8javp/",
+            "publishDate": "2019",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "method",
+                  "geo-spatial"
+            ]
+      },
+      {
+            "title": "Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment",
+            "href": "https://mola-lab.squarespace.com/s/moral-foundations-twitter-corpus-a-collection-of-35k-tweets-annotated-for-moral-sentiment.pdf",
+            "description": "Hoover, J., Portillo-Wightman, G., Yeh, L., Havaldar, S., Mostafazadeh Davani, A., Lin, Y., Kennedy, B., Atari, M., Kamel, Z., Mendlen, M., Moreno, G., Park, C., Chang, T. E., Chin, J., Leong, C., Leung, J. Y., Mirinjian, A., Dehghani, M. (2019). Social Psychological and Personality Science, 11, 8.bib | OSF ",
+            "italics": "<em>Social Psychological and Personality Science</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/moral-foundations-twitter-corpus-a-collection-of-35k-tweets-annotated-for-moral-sentiment.bib",
+            "osf": "https://osf.io/ezn37/",
+            "publishDate": "2019",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Measuring Abstract Mindsets through Syntax: Automating the Linguistic Category Model",
+            "href": "https://mola-lab.squarespace.com/s/measuring-abstract-mindsets-through-syntax-automating-the-linguistic-category-model.pdf",
+            "description": "Johnson, K. M., Boghrati, R., Wakslak, C., Dehghani, M. (2019). Social Psychological and Personality Science. 11, 2.Supplementary material | bib | OSF",
+            "italics": "<em>Social Psychological and Personality Science</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/measuring-abstract-mindsets-through-syntax-automating-the-linguistic-category-model-sm.docx",
+            "bib": "https://mola-lab.squarespace.com/s/measuring-abstract-mindsets-through-syntax-automating-the-linguistic-category-model.bib",
+            "osf": "https://osf.io/hsnmq/?view_only=8e33ec6a2c6644f58a0437bc95d4d2e5",
+            "publishDate": "2019",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Reporting the Unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes",
+            "href": "https://mola-lab.squarespace.com/s/reporting-the-unreported-event-extraction-for-analyzing-the-local-representation-of-hate-crimes-8rrx.pdf",
+            "description": "Mostafazadeh Davani, A., Yeh, L., Atari, M., Kennedy, B., Portillo-Wightman, G., Gonzalez, E., Delong, N., Bhatia, R., Mirinjian, A., Ren, X., Dehghani, M. (2019). Hong Kong, China. Proceedings of Empirical Methods in Natural Language Processing (EMNLP).bib",
+            "italics": "<em>Proceedings of Empirical Methods in Natural Language Processing (EMNLP)</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/reporting-the-unreported-event-extraction-for-analyzing-the-local-representation-of-hate-crimes.bib",
+            "osf": null,
+            "publishDate": "2019",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language",
+                  "hate"
+            ]
+      },
+      {
+            "title": "Testing the Influence of Purity-Based Interventions on Pro-environmental Behavior",
+            "href": "https://mola-lab.squarespace.com/s/testing-the-influence-of-purity-based-interventions-on-pro-environmental-behavior.pdf",
+            "description": "Sachdeva, S., Boghrati, R., Dehghani, M. (2019). Sustainability. Vol. 11 (6), pp. 1811.Supplementary material | bib | OSF",
+            "italics": "<em>Sustainability</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/testing-the-influence-of-purity-based-interventions-on-pro-environmental-behavior-sm.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/testing-the-influence-of-purity-based-interventions-on-pro-environmental-behavior.bib",
+            "osf": "https://osf.io/qd9m2",
+            "publishDate": "2019",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "environment"
+            ]
+      },
+      {
+            "title": "Follow my Language! Effect of Power Relations on Syntactic Alignment",
+            "href": "https://www.mola-lab.org/s/follow-my-language-effect-of-power-relations-on-syntactic-alignment.pdf",
+            "description": "Boghrati, R., Dehghani, M. (2018). Proceedings of 30th Annual Conference of the Cognitive Science Society (CogSci).bib",
+            "italics": "<em>Proceedings of 30th Annual Conference of the Cognitive Science Society (CogSci)</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/follow-my-language-effect-of-power-relations-on-syntactic-alignment.bib",
+            "osf": null,
+            "publishDate": "2018",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Using Linguistic Features Influenced by Cognitive Mechanisms to Identify Polite and Frustrated Speech in Children",
+            "href": "https://www.mola-lab.org/s/using-linguistic-features-influenced-by-cognitive-mechanisms-to-identify-polite-and-frustrated-speec.pdf",
+            "description": "Chang, C., Brixey, J., Gibson, J., Dehghani, M. (2018). Proceedings of 30th Annual Conference of the Cognitive Science Society (CogSci).bib ",
+            "italics": "<em>Proceedings of 30th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/using-linguistic-features-influenced-by-cognitive-mechanisms-to-identify-polite-and-frustrated-speec.bib",
+            "osf": null,
+            "publishDate": "2018",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Incorporating Demographic Embeddings into Language Understanding",
+            "href": "https://mola-lab.squarespace.com/s/incorporating-demographic-embeddings-into-language-understanding.pdf",
+            "description": "Garten, J., Kennedy, B., Hoover, J., Sagae, K., Dehghani, M. (2018). Cognitive Science.bib ",
+            "italics": "<em>Cognitive Science</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/incorporating-demographic-embeddings-into-language-understanding.bib",
+            "osf": null,
+            "publishDate": "2018",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Moral Framing and Charitable Donation: Integrating Exploratory Social Media Analyses and Confirmatory Experimentation",
+            "href": "https://mola-lab.squarespace.com/s/moral-framing-and-charitable-donation-integrating-exploratory-social-media-analyses-and-confirmatory.pdf",
+            "description": "Hoover, J., Johnson, K., Boghrati, R., Graham, J., Dehghani, M. (2018). Collabra: Psychology. Vol. 4 (1).Supplementary material | bib | OSF",
+            "italics": "<em>Collabra: Psychology</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/moral-framing-and-charitable-donation-integrating-exploratory-social-media-analyses-and-confirmatory-66zn.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/moral-framing-and-charitable-donation-integrating-exploratory-social-media-analyses-and-confirmatory.bib",
+            "osf": "https://osf.io/crdsj/",
+            "publishDate": "2018",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language"
+            ]
+      },
+      {
+            "title": "Acquiring Background Knowledge to Improve Moral Value Prediction",
+            "href": "https://mola-lab.squarespace.com/s/acquiring-background-knowledge-to-improve-moral-value-prediction.pdf",
+            "description": "Lin, Y., Hoover, J., Portillo-Wightman, G., Park, C., Dehghani, M., Ji, H. (2018). 2018 IEEE/ACM InternationalConference on Advances in Social Networks Analysis and Mining (ASONAM2018).bib",
+            "italics": "<em>2018 IEEE/ACM InternationalConference on Advances in Social Networks Analysis and Mining</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/acquiring-background-knowledge-to-improve-moral-value-prediction.bib",
+            "osf": null,
+            "publishDate": "2018",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Moralization in Social Networks and the Emergence of Violent Protests",
+            "href": "https://mola-lab.squarespace.com/s/moralization-in-social-networks-and-the-emergence-of-violent-protests-nzzz.pdf",
+            "description": "Mooijman, M., Hoover, J., Lin, Y., Ji, H., Dehghani, M. (2018). Nature Human Behavior. Vol. 2, pp. 389\u2013396.bib | OSF",
+            "italics": "<em>Nature Human Behavior</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/moralization-in-social-networks-and-the-emergence-of-violent-protests.bib",
+            "osf": "https://osf.io/wqzmj/files/",
+            "publishDate": "2018",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language"
+            ]
+      },
+      {
+            "title": "Conversation Level Syntax Similarity Metric",
+            "href": "https://mola-lab.squarespace.com/s/conversation-level-syntax-similarity-metric.pdf",
+            "description": "Boghrati, R., Hoover, J., Johnson, K. M., Garten, J., Dehghani, M. (2017). Behavior Research Methods.Supplementary material | bib ",
+            "italics": "<em>Behavior Research Methods</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/conversation-level-syntax-similarity-metric-sm.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/conversation-level-syntax-similarity-metric.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Generalized Representation of Syntactic Structures",
+            "href": "https://mola-lab.squarespace.com/s/generalized-representation-of-syntactic-structures.pdf",
+            "description": "Boghrati, R., Johnson, K. M., Dehghani, M. (2017). Proceedings of 38th Annual Conference of the Cognitive Science Society (CogSci).bib",
+            "italics": "<em>Proceedings of 38th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/generalized-representation-of-syntactic-structures.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Decoding the Neural Representation of Story Meanings across Languages",
+            "href": "https://mola-lab.squarespace.com/s/decoding-the-neural-representation-of-story-meanings-across-languages.pdf",
+            "description": "Dehghani, M., Boghrati, R., Man, K., Hoover, J., Gimbel, S. R., Vaswani, A., Zevin, J. D., Immordino-Yang, M. H., Gordon, A. S., Damasio, A., Kaplan, J. T. (2017). Human Brain Mapping.Supplementary material | bib",
+            "italics": "<em>Human Brain Mapping</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/decoding-the-neural-representation-of-story-meanings-across-languages-sm.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/decoding-the-neural-representation-of-story-meanings-across-languages.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "fmri",
+                  "language"
+            ]
+      },
+      {
+            "title": "Dictionaries and Distributions: Combining Expert Knowledge and Large Scale Textual Data Content Analysis",
+            "href": "https://mola-lab.squarespace.com/s/dictionaries-and-distributions-combining-expert-knowledge-and-large-scale-textual-data-content-analy.pdf",
+            "description": "Garten, J., Hoover, J., Johnson, K., Boghrati, R., Iskiwitch, C., Dehghani, M. (2017). Behavior Research Methods.Supplementary material | bib",
+            "italics": "<em>Behavior Research Methods</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/dictionaries-and-distributions-combining-expert-knowledge-and-large-scale-textual-data-content-analy-3wdw.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/dictionaries-and-distributions-combining-expert-knowledge-and-large-scale-textual-data-content-analy.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "The Meanings of Morality: Investigating the Psychometric Properties of Distributed Representations of Latent Moral Concepts",
+            "href": "https://mola-lab.squarespace.com/s/the-meanings-of-morality-investigating-the-psychometric-properties-of-distributed-representations-of.pdf",
+            "description": "Hoover, J., Horton, K., Dehghani, M. (2017). Proceedings of 38th Annual Conference of the Cognitive Science Society (CogSci).bib",
+            "italics": "<em>Proceedings of 38th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/the-meanings-of-morality-investigating-the-psychometric-properties-of-distributed-representations-of.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language"
+            ]
+      },
+      {
+            "title": "Measuring Abstract Mindsets through Syntax: Improvements in Automating the Linguistic Category Model",
+            "href": "https://mola-lab.squarespace.com/s/measuring-abstract-mindsets-through-syntax-improvements-in-automating-the-linguistic-category-model.pdf",
+            "description": "Johnson, K. M., Boghrati, R., Wakslak, C., Dehghani, M. (2017). Proceedings of 38th Annual Conference of the Cognitive Science Society (CogSci).bib",
+            "italics": "<em>Proceedings of 38th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/measuring-abstract-mindsets-through-syntax-improvements-in-automating-the-linguistic-category-model.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Decoding Virtual Agent\u2019s Emotion and Strategy from Brain Patterns",
+            "href": "https://mola-lab.squarespace.com/s/decoding-virtual-agents-emotion-and-strategy-from-brain-patterns.pdf",
+            "description": "Kim, E., Gimbel, S., Litvinova, A., Kaplan, J., Dehghani, M. (2017). Proceedings of 38th Annual Conference of the Cognitive Science Society (CogSci).bib",
+            "italics": "<em>Proceedings of 38th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/decoding-virtual-agents-emotion-and-strategy-from-brain-patterns.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "fmri",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "Decoding Partner Type in Human-Agent Negotiation using functional MRI",
+            "href": "https://mola-lab.squarespace.com/s/decoding-partner-type-in-human-agent-negotiation-using-functional-mri.pdf",
+            "description": "Kim, E., Gilbert, J., Horowitz, C., Gratch, J., Kaplan, J. T., Dehghani, M. (2017). Proceedings of 38th Annual Conference of the Cognitive Science Society (CogSci).",
+            "italics": "<em>Proceedings of 38th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": null,
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "virtual-humans",
+                  "fmri"
+            ]
+      },
+      {
+            "title": "Resisting Temptation for the Good of the Group: Binding Moral Values and the Moralization of Self-Control",
+            "href": "https://mola-lab.squarespace.com/s/resisting-temptation-for-the-good-of-the-group-binding-moral-values-and-the-moralization-of-self-con.pdf",
+            "description": "Mooijman, M., Meindl, P., Oyserman, D., Monterosso, J., Dehghani, M., Dorris, J. M., Graham, J. (2017). Journal of Personality and Social Psychology.Supplementary material | bib",
+            "italics": "<em>Journal of Personality and Social Psychology</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/resisting-temptation-for-the-good-of-the-group-binding-moral-values-and-the-moralization-of-self-con.docx ",
+            "bib": "https://mola-lab.squarespace.com/s/resisting-temptation-for-the-good-of-the-group-binding-moral-values-and-the-moralization-of-self-con.bib",
+            "osf": null,
+            "publishDate": "2017",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language"
+            ]
+      },
+      {
+            "title": "Syntax Accommodation in Social Media Conversations",
+            "href": "https://mola-lab.squarespace.com/s/syntax-accommodation-in-social-media-conversations.pdf",
+            "description": "Boghrati, R., Hoover, J., Johnson, K. M., Garten, J., Dehghani, M. (2016). Proceedings of 37th Annual Conference of the Cognitive Science Society.bib",
+            "italics": "<em>Proceedings of 37th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/syntax-accommodation-in-social-media-conversations.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "TACIT: An Open-Source Text Analysis, Crawling, and Interpretation Tool",
+            "href": "https://mola-lab.squarespace.com/s/TACIT-an-open-source-text-analysis-crawling-and-interpretation-tool.pdf",
+            "description": "Dehghani, M., Johnson, K. M., Garten, J., Boghrati, R., Hoover, J., Balasubramanian, V., Singh, A., Shankar, Y., Pulickal, L., Rajkumar, A., Parmar, N. J. (2016). Behavior Research Methods.Supplementary material | bib",
+            "italics": "<em>Behavior Research Methods</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/TACIT-an-open-source-text-analysis-crawling-and-interpretation-tool-sm.pdf",
+            "bib": "https://mola-lab.squarespace.com/s/TACIT-an-open-source-text-analysis-crawling-and-interpretation-tool.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Purity Homophily in Social Networks",
+            "href": "https://mola-lab.squarespace.com/s/purity-homophily-in-social-networks.pdf",
+            "description": "Dehghani, M., Johnson, K., Hoover, J., Sagi, E., Garten, J., Parmar, N. J., Vaisey, S., Iliev, R., Graham, J. (2016). Journal of Experimental Psychology: General.Supplementary material | bib | OSF",
+            "italics": "<em>Journal of Experimental Psychology: General</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/purity-homophily-in-social-networks-sm.doc",
+            "bib": "https://mola-lab.squarespace.com/s/purity-homophily-in-social-networks.bib",
+            "osf": "https://osf.io/237fk/",
+            "publishDate": "2016",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language",
+                  "social-networks"
+            ]
+      },
+      {
+            "title": "Morality Between the Lines: Detecting Moral Sentiment in Text",
+            "href": "https://www.mola-lab.org/s/morality-between-the-lines-detecting-moral-sentiment-in-text.pdf",
+            "description": "Garten, J., Boghrati, R., Hoover, J., Johnson, K. M., Dehghani, M. (2016). Proceedings of IJCAI 2016 Workshop on Computational Modeling of Attitudes.bib",
+            "italics": "<em>Proceedings of IJCAI 2016 Workshop on Computational Modeling of Attitudes</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/morality-between-the-lines-detecting-moral-sentiment-in-text.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language"
+            ]
+      },
+      {
+            "title": "Into The Wild: Big Data Analytics in Moral Psychology",
+            "href": "https://mola-lab.squarespace.com/s/into-the-wild.pdf",
+            "description": "Hoover, J., Dehghani, M., Johnson, K., Iliev, R., Graham, J. (2016).bib",
+            "italics": "None",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/into-the-wild.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Book Chapter",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Linguistic Positivity in Historical Texts Reflects Dynamic Environmental and Psychological Factors",
+            "href": "https://mola-lab.squarespace.com/s/linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors.pdf",
+            "description": "Iliev, R., Hoover, J., Dehghani, M., Axelrod, R. (2016). Proceedings of the National Academy of Sciences.bib",
+            "italics": "<em>Proceedings of the National Academy of Sciences</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Processing Narratives Concerning Protected Values: A Cross-Cultural Investigation of Neural Correlates",
+            "href": "https://mola-lab.squarespace.com/s/processing-narratives-concerning-protected-values-a-cross-cultural-investigation-of-neural-correlate.pdf",
+            "description": "Kaplan, J. T., Gimbel, S. I., Dehghani, M., Immordino-Yang, M. H., Sagae, K., Wong, J. D., Tipper, C. M., Damasio, H., Gordon, A. S., Damasio, A. (2016). Cerebral Cortex.bib",
+            "italics": "<em>Cerebral Cortex</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/processing-narratives-concerning-protected-values-a-cross-cultural-investigation-of-neural-correlate.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "fmri",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Predicting Decision in Human-Agent Negotiation Using Functional MRI",
+            "href": "https://mola-lab.squarespace.com/s/predicting-decision-in-human-agent-negotiation-using-functional-mri.pdf",
+            "description": "Kim, E., Gimbel, S., Litvinova, A., Kaplan, J., Dehghani, M. (2016). Proceedings of 37th Annual Conference of the Cognitive Science Society (CogSci).bib",
+            "italics": "<em>Proceedings of 37th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/predicting-decision-in-human-agent-negotiation-using-functional-mri.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "fmri",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "Closing the Gender Gap in STEM With Friendly Male Instructors? On the Effects of Rapport Behavior and Gender of a Virtual Agent in an Instructional Interaction",
+            "href": "https://www.mola-lab.org/s/closing-the-gender-gap-in-stem-with-friendly-male-instructors-on-the-effects-of-rapport-behavior-and-ff7m.pdf",
+            "description": "Kr\u00e4mer, N. C., Karacora, B., Lucas, G., Dehghani, M., R\u00fcther, G., Gratch, J. (2016). Computers & Education. Vol. 99, pp. 1-13.bib",
+            "italics": "<em>Computers &amp; Education</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/closing-the-gender-gap-in-stem-with-friendly-male-instructors-on-the-effects-of-rapport-behavior-and.bib",
+            "osf": null,
+            "publishDate": "2016",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "education",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "Incorporating Background Knowledge into Text Classification",
+            "href": "https://mola-lab.squarespace.com/s/incorporating-background-knowledge-into-text-classification.pdf",
+            "description": "Boghrati, R., Garten, J., Litvinova, A., Dehghani, M. (2015). Proceedings of 37th Annual Conference of the Cognitive Science Society.bib",
+            "italics": "<em>Proceedings of 37th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/incorporating-background-knowledge-into-text-classification.bib",
+            "osf": null,
+            "publishDate": "2015",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Combining Distributed Vector Representations for Words",
+            "href": "https://mola-lab.squarespace.com/s/combining-distributed-vector-representations-for-words.pdf",
+            "description": "Garten, J., Sagae, K., Ustun, V., Dehghani, M. (2015). NAACL Vector Space Modeling for NLP.bib",
+            "italics": "<em>Vector Space Modeling for NLP</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/combining-distributed-vector-representations-for-words.bib",
+            "osf": null,
+            "publishDate": "2015",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "The Role of Self-Sacrifice in Moral Dilemmas",
+            "href": "https://www.mola-lab.org/s/the-role-of-self-sacrifice-in-moral-dilemmas-6dz8.pdf",
+            "description": "Sachdeva, S., Iliev, R., Ekhtiari, H., Dehghani, M. (2015). PloS One. Vol. 10(6).Supplementary material | bib ",
+            "italics": "<em>PloS One</em>",
+            "supplementary": "https://mola-lab.squarespace.com/s/the-role-of-self-sacrifice-in-moral-dilemmas-sm.zip",
+            "bib": "https://mola-lab.squarespace.com/s/the-role-of-self-sacrifice-in-moral-dilemmas.bib",
+            "osf": null,
+            "publishDate": "2015",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality"
+            ]
+      },
+      {
+            "title": "The Subtlety of Sound: Accent as a Marker for Culture",
+            "href": "https://mola-lab.squarespace.com/s/the-subtlety-of-sound-accent-as-a-marker-for-culture.pdf",
+            "description": "Dehghani, M., Khooshabeh, P., Nazerian, A., Gratch, J. (2014). Journal of Language and Social Psychology.bib",
+            "italics": "<em>Journal of Language and Social Psychology</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/the-subtlety-of-sound-accent-as-a-marker-for-culture.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language",
+                  "culture"
+            ]
+      },
+      {
+            "title": "Interpersonal Effects of Expressed Anger and Sorrow in Morally Charged Negotiation",
+            "href": "https://mola-lab.squarespace.com/s/interpersonal-effects-of-expressed-anger-and-sorrow-in-morally-charged-negotiation.pdf",
+            "description": "Dehghani, M., Carnevale, P. J., Gratch, J. (2014). Judgment and Decision Making. Vol. 9 (2), pp. 104-113.bib",
+            "italics": "<em>Judgment and Decision Making</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/interpersonal-effects-of-expressed-anger-and-sorrow-in-morally-charged-negotiation.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "Analyzing Political Rhetoric in Conservative and Liberal Weblogs Related to the Construction of the \u201cGround Zero Mosque\u201d",
+            "href": "https://www.mola-lab.org/s/analyzing-political-rhetoric-in-conservative-and-liberal-weblogs-related-to-the-construction-of-the-6pdf.pdf",
+            "description": "Dehghani, M., Sagae, K., Sachdeva, S., Gratch, J. (2014). Journal of Information Technology & Politics. Vol. 11 (1), pp. 1-14.bib",
+            "italics": "<em>Journal of Information Technology &amp; Politics</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/analyzing-political-rhetoric-in-conservative-and-liberal-weblogs-related-to-the-construction-of-the.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "language",
+                  "politics"
+            ]
+      },
+      {
+            "title": "Automated Text Analysis in Psychology: Methods, Applications, and Future Developments",
+            "href": "https://mola-lab.squarespace.com/s/automated-text-analysis-in-psychology-methods-applications-and-future-developments.pdf",
+            "description": "Iliev, R., Dehghani, M., Sagi, E. (2014). Language and Cognition.bib",
+            "italics": "<em>Language and Cognition</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/automated-text-analysis-in-psychology-methods-applications-and-future-developments.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "Effects of Moral Concerns on Negotiations",
+            "href": "https://mola-lab.squarespace.com/s/effects-of-moral-concerns-on-negotiations.pdf",
+            "description": "Kim, E., Dehghani, M., Kim, Y. K., Carnevale, P. J., Gratch, J. (2014). Proceedings of 36th Annual Conference of the Cognitive Science Society (CogSci). bib",
+            "italics": "<em>Proceedings of 36th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/effects-of-moral-concerns-on-negotiations.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "morality",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "The Cultural Influence Model: When Accented Natural Language Spoken by Virtual Characters Matters",
+            "href": "https://mola-lab.squarespace.com/s/the-cultural-influence-model-when-accented-natural-language-spoken-by-virtual-characters-matters.pdf",
+            "description": "Khooshabeh, P., Dehghani, M., Nazarian, A., Gratch, J. (2014). Journal of Artificial Intelligence and Society.bib",
+            "italics": "<em>Journal of Artificial Intelligence and Society.<br/></em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/the-cultural-influence-model-when-accented-natural-language-spoken-by-virtual-characters-matters.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "culture",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "Measuring Moral Rhetoric in Text",
+            "href": "https://mola-lab.squarespace.com/s/measuring-moral-rhetoric-in-text.pdf",
+            "description": "Sagi, E., Dehghani, M. (2014). Social Science Computer Review. Vol. 32 (2), pp. 132-144.bib",
+            "italics": "<em>Social Science Computer Review</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/measuring-moral-rhetoric-in-text.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Moral Rhetoric in Twitter: A Case Study of the US Federal Shutdown of 2013",
+            "href": "https://www.mola-lab.org/s/moral-rhetoric-in-twitter-a-case-study-of-the-us-federal-shutdown-of-2013.pdf",
+            "description": "Sagi, E., Dehghani, M. (2014). Proceedings of 36th Annual Conference of the Cognitive Science Society.bib ",
+            "italics": "<em>Proceedings of 36th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/moral-rhetoric-in-twitter-a-case-study-of-the-us-federal-shutdown-of-2013.bib",
+            "osf": null,
+            "publishDate": "2014",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Epistemologies in the Text of Children\u2019s Books: Native-and Non-Native-Authored Books",
+            "href": "https://mola-lab.squarespace.com/s/epistemologies-in-the-text-of-childrens-books-native-and-non-native-authored-books.pdf",
+            "description": "Dehghani, M., Bang, M., Medin, D., Marin, A., Leddon, E., Waxman, S. (2013). International Journal of Science Education. Vol. 35 (13), pp. 2133-2151.bib",
+            "italics": "<em>International Journal of Science Education</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/epistemologies-in-the-text-of-childrens-books-native-and-non-native-authored-books.bib",
+            "osf": null,
+            "publishDate": "2013",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "language",
+                  "education"
+            ]
+      },
+      {
+            "title": "Computational Models of Moral Perception, Conflict and Elevation",
+            "href": "https://mola-lab.squarespace.com/s/computational-models-of-moral-perception-conflict-and-elevation.pdf",
+            "description": "Dehghani, M., Immordino-Yang, M. H., Graham, J., Marsella, S., Forbus, K., Ginges, J., Tambe, M., Maheswaran, R. (2013). Proceedings of the International Association for Computing and Philosophy (IACAP).bib",
+            "italics": "<em>Proceedings of the International Association for Computing and Philosophy (IACAP</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/computational-models-of-moral-perception-conflict-and-elevation.bib",
+            "osf": null,
+            "publishDate": "2013",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "modeling",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Virtual Humans: A New Toolkit for Cognitive Science Research",
+            "href": "https://mola-lab.squarespace.com/s/virtual-humans-a-new-toolkit-for-cognitive-science-research.pdf",
+            "description": "Gratch, J., Hartholt, A., Dehghani, M., Marsella, S. (2013). pp. 215-233. Proceedings of 35th Annual Conference of the Cognitive Science Society. bib",
+            "italics": "<em>Proceedings of 35th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/virtual-humans-a-new-toolkit-for-cognitive-science-research.bib",
+            "osf": null,
+            "publishDate": "2013",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "virtual-humans"
+            ]
+      },
+      {
+            "title": "A Data-Driven Approach for Classification of Subjectivity in Personal Narratives",
+            "href": "https://mola-lab.squarespace.com/s/a-data-driven-approach-for-classification-of-subjectivity-in-personal-narratives.pdf",
+            "description": "Sagae, K., Gordon, A. S., Dehghani, M., Metke, M., Kim, J. S., Gimbel, S. I., Tipper, C., Kaplan, J., Immordino-Yang, M. H. (2013). Proceedings of the 2013 Workshop on Computational Models of Narrative.bib",
+            "italics": "<em>Proceedings of the 2013 Workshop on Computational Models of Narrative</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/a-data-driven-approach-for-classification-of-subjectivity-in-personal-narratives.bib",
+            "osf": null,
+            "publishDate": "2013",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "language"
+            ]
+      },
+      {
+            "title": "The Rich Who Have the Humility of the Poor: Effects of Culture and Power on Altruism",
+            "href": "https://mola-lab.squarespace.com/s/the-rich-who-have-the-humility-of-the-poor-effects-of-culture-and-power-on-altruism.pdf",
+            "description": "Salehi, N., Dehghani, M. (2013). Proceedings of 35th Annual Conference of the Cognitive Science Society.bib",
+            "italics": "<em>Proceedings of 35th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/the-rich-who-have-the-humility-of-the-poor-effects-of-culture-and-power-on-altruism.bib",
+            "osf": null,
+            "publishDate": "2013",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "culture"
+            ]
+      },
+      {
+            "title": "Causal Explanation and Fact Mutability in Counterfactual Reasoning",
+            "href": "https://mola-lab.squarespace.com/s/causal-explanation-and-fact-mutability-in-counterfactual-reasoning.pdf",
+            "description": "Dehghani, M., Iliev, R., Kaufmann, S. (2012). Mind & Language. Vol. 27 (1), pp. 55-85.\u00a0bib",
+            "italics": "<em>Mind &amp; Language</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/causal-explanation-and-fact-mutability-in-counterfactual-reasoning.bib",
+            "osf": null,
+            "publishDate": "2012",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "counterfactuals",
+                  "language"
+            ]
+      },
+      {
+            "title": "Interpersonal Effects of Emotions in Morally-charged Negotiations",
+            "href": "https://mola-lab.squarespace.com/s/interpersonal-effects-of-emotions-in-morally-charged-negotiations.pdf",
+            "description": "Dehghani, M., Gratch, J., Carnevale, P. (2012). Proceedings of CogSci 2012.bib",
+            "italics": "<em>Proceedings of CogSci</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/interpersonal-effects-of-emotions-in-morally-charged-negotiations.bib",
+            "osf": null,
+            "publishDate": "2012",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "virtual-humans",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Using Accent to Induce Cultural Frame-Switching",
+            "href": "https://mola-lab.squarespace.com/s/using-accent-to-induce-cultural-frame-switching.pdf",
+            "description": "Dehghani, M., Khooshabeh, P., Huang, L., Nazarian, A., Gratch, J. (2012). Proceedings of CogSci 2012.bib",
+            "italics": "<em>Proceedings of CogSci</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/using-accent-to-induce-cultural-frame-switching.bib",
+            "osf": null,
+            "publishDate": "2012",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "culture",
+                  "language"
+            ]
+      },
+      {
+            "title": "The Influence of Virtual Agents\u2019 Gender and Rapport on Enhancing Math Performance",
+            "href": "https://mola-lab.squarespace.com/s/the-influence-of-virtual-agents-gender-and-rapport-on-enhancing-math-performance.pdf",
+            "description": "Karacora, B., Dehghani, M., Kr\u00e4mer-Mertens, N., Gratch, J. (2012). pp. 563-568. Proceedings of the 34th Annual Meeting of the Cognitive Science Society.bib",
+            "italics": "<em>Proceedings of the 34th Annual Meeting of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/the-influence-of-virtual-agents-gender-and-rapport-on-enhancing-math-performance.bib",
+            "osf": null,
+            "publishDate": "2012",
+            "type": "Proceeding",
+            "topic": [
+                  "all",
+                  "virtual-humans",
+                  "education"
+            ]
+      },
+      {
+            "title": "These Are Ours: The Effects of Ownership and Groups on Property Negotiation",
+            "href": "https://mola-lab.squarespace.com/s/these-are-ours-the-effects-of-ownership-and-groups-on-property-negotiation.pdf",
+            "description": "Carnevale, P. J., Kim, Y. K., De Melo, C. M., Dehghani, M., Gratch, J. (2011). The 24th Annual Conference of the International Association for Conflict Management.bib",
+            "italics": "<em>The 24th Annual Conference of the International Association for Conflict Management</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/these-are-ours-the-effects-of-ownership-and-groups-on-property-negotiation.bib",
+            "osf": null,
+            "publishDate": "2011",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "An Integrated Reasoning Approach to Moral Decision-Making",
+            "href": "https://mola-lab.squarespace.com/s/an-integrated-reasoning-approach-to-moral-decision-making.pdf",
+            "description": "Dehghani, M., Forbus, K., Tomai, E., Klenk, M. (2011). Cambridge University Press.bib",
+            "italics": "None",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/an-integrated-reasoning-approach-to-moral-decision-making.bib",
+            "osf": null,
+            "publishDate": "2011",
+            "type": "Book Chapter",
+            "topic": [
+                  "all",
+                  "modeling",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Analyzing Conservative and Liberal Blogs Related to the Construction of the Ground Zero Mosque",
+            "href": "https://mola-lab.squarespace.com/s/analyzing-conservative-and-liberal-blogs-related-to-the-construction-of-the-ground-zero-mosque.pdf",
+            "description": "Dehghani, M., Gratch, J., Sachdeva, S., Sagae, K. (2011). pp. 1853-1858. Proceedings of the 33rd Annual Conference of the Cognitive Science Society.bib",
+            "italics": "<em>Proceedings of the 33rd Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/analyzing-conservative-and-liberal-blogs-related-to-the-construction-of-the-ground-zero-mosque.bib",
+            "osf": null,
+            "publishDate": "2011",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Cultural Frame-Switching Using Accented Spoken Language by a Virtual Character",
+            "href": "https://mola-lab.squarespace.com/s/cultural-frame-switching-using-accented-spoken-language-by-a-virtual-character.pdf",
+            "description": "Dehghani, M., Khooshabeh, P., Huang, L., Oganseyan, L., Gratch, J. (2011). Workshop on Culturally Motivated Virtual Characters, IVA.bib",
+            "italics": "<em>Workshop on Culturally Motivated Virtual Characters,</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/cultural-frame-switching-using-accented-spoken-language-by-a-virtual-character.bib",
+            "osf": null,
+            "publishDate": "2011",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Sacred Values and Conflict Over Iran\u2019s Nuclear Program",
+            "href": "https://mola-lab.squarespace.com/s/sacred-values-and-conflict-over-irans-nuclear-program.pdf",
+            "description": "Dehghani, M., Atran, S., Iliev, R., Sachdeva, S., Medin, D., Ginges, J. (2010). Judgment and Decision Making. Vol. 5 (7), pp. 540-546.bib",
+            "italics": "<em>Judgment and Decision Making</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/sacred-values-and-conflict-over-irans-nuclear-program.bib",
+            "osf": null,
+            "publishDate": "2010",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "politics",
+                  "morality"
+            ]
+      },
+      {
+            "title": "Emerging Sacred Values: The Iranian Nuclear Program",
+            "href": "https://mola-lab.squarespace.com/s/emerging-sacred-values-the-iranian-nuclear-program.pdf",
+            "description": "Dehghani, M., Iliev, R., Sachdeva, S., Atran, S., Ginges, J., Medin, D. (2009). Judgment and Decision Making. Vol. 4, pp. 990-993.bib",
+            "italics": "<em>Judgment and Decision Making</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/emerging-sacred-values-the-iranian-nuclear-program.bib",
+            "osf": null,
+            "publishDate": "2009",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "morality",
+                  "politics"
+            ]
+      },
+      {
+            "title": "QCM: A QP-Based Concept Map System",
+            "href": "https://mola-lab.squarespace.com/s/QCM-A-QP-based-concept-map-system.pdf",
+            "description": "Dehghani, M., Forbus, K. (2009). Proceedings of the 23nd International Workshop on Qualitative Reasoning.bib",
+            "italics": "<em>Proceedings of the 23nd International Workshop on Qualitative Reasoning</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/QCM-A-QP-based-concept-map-system.bib",
+            "osf": null,
+            "publishDate": "2009",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Analogy and Moral Decision Making",
+            "href": "https://mola-lab.squarespace.com/s/analogy-and-moral-decision-making.pdf",
+            "description": "Dehghani, M., Gentner, D., Forbus, K., Ekhtiari, H., Sachdeva, S. (2009). Proceedings of the 2nd International Analogy Conference.bib",
+            "italics": "<em>Proceedings of the 2nd International Analogy Conference</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/analogy-and-moral-decision-making.bib",
+            "osf": null,
+            "publishDate": "2009",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Causal Explanations in Counterfactual Reasoning",
+            "href": "https://mola-lab.squarespace.com/s/causal-explanations-in-counterfactual-reasoning.pdf",
+            "description": "Dehghani, M., Iliev, R., Kaufmann, S. (2009). Proceedings of the Thirty-First Annual Conference of the Cognitive Science Society, Amsterdam, Netherlands.bib",
+            "italics": "<em>Proceedings of the Thirty-First Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/causal-explanations-in-counterfactual-reasoning.bib",
+            "osf": null,
+            "publishDate": "2009",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "The Role of Cultural Narratives in Moral Decision Making",
+            "href": "https://mola-lab.squarespace.com/s/the-role-of-cultural-narratives-in-moral-decision-making.pdf",
+            "description": "Dehghani, M., Sachdeva, S., Ekhtiari, H., Gentner, D., Forbus, K. (2009). pp. 1912-1917. Proceedings of the 31th Annual Conference of the Cognitive Science Society.bib",
+            "italics": "<em>Proceedings of the 31th Annual Conference of the Cognitive Science Societ</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/the-role-of-cultural-narratives-in-moral-decision-making.bib",
+            "osf": null,
+            "publishDate": "2009",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Prefer a Cash Slap in Your Face Over Credit for Halva",
+            "href": "https://mola-lab.squarespace.com/s/prefer-a-cash-slap-in-your-face-over-credit-for-halva.pdf",
+            "description": "Ekhtiari, H., Behzadi, A., Dehghani, M., Jannati, A., Mokri, A. (2009). Judgment and Decision Making. Vol. 4 (7), pp. 534-542.bib",
+            "italics": "<em>Judgment and Decision Making</em>",
+            "supplementary": null,
+            "bib": "https://mola-lab.squarespace.com/s/prefer-a-cash-slap-in-your-face-over-credit-for-halva.bib",
+            "osf": null,
+            "publishDate": "2009",
+            "type": "Journal Article",
+            "topic": [
+                  "all",
+                  "culture"
+            ]
+      },
+      {
+            "title": "MoralDM: A Computational Model of Moral Decision-Making",
+            "href": "https://mola-lab.squarespace.com/s/MoralDM-a-computational-model-of-moral-decision-making.pdf",
+            "description": "Dehghani, M., Tomai, E., Forbus, K., Iliev, R., Klenk, M. (2008). Proceedings of the 30th Annual Conference of the Cognitive Science Society (CogSci-08).bib",
+            "italics": "<em>Proceedings of the 30th Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/MoralDM-a-computational-model-of-moral-decision-making.bib",
+            "osf": null,
+            "publishDate": "2008",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Order of Magnitude Reasoning in Modeling Moral Decision-Making",
+            "href": "https://mola-lab.squarespace.com/s/order-of-magnitude-reasoning-in-modeling-moral-decision-making.pdf",
+            "description": "Dehghani, M., Tomai, E., Forbus, K., Klenk, M. (2008). 22nd International Workshop on Qualitative Reasoning.bib",
+            "italics": "<em>22nd International Workshop on Qualitative Reasoning</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/order-of-magnitude-reasoning-in-modeling-moral-decision-making.bib",
+            "osf": null,
+            "publishDate": "2008",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "An Integrated Reasoning Approach to Moral Decision-Making",
+            "href": "https://mola-lab.squarespace.com/s/an-integrated-reasoning-approach-to-moral-decision-making-895j.pdf",
+            "description": "Dehghani, M., Tomai, E., Forbus, K. D., Klenk, M. (2008). pp. 1280-1286. AAAI.bib",
+            "italics": "<em>AAAI</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/an-integrated-reasoning-approach-to-moral-decision-making-bjwm.bib",
+            "osf": null,
+            "publishDate": "2008",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "A Theory of Depiction for Sketches of Physical Systems",
+            "href": "https://mola-lab.squarespace.com/s/a-theory-of-depiction-for-sketches-of-physical-systems.pdf",
+            "description": "Lockwood, K., Lovett, A., Forbus, K., Dehghani, M., Usher, J. (2008). Proceedings of QR 2008.bib",
+            "italics": "<em>Proceedings of QR</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/a-theory-of-depiction-for-sketches-of-physical-systems.bib",
+            "osf": null,
+            "publishDate": "2008",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Automatic Interpretation of Depiction Conventions in Sketched Diagrams",
+            "href": "https://mola-lab.squarespace.com/s/automatic-interpretation-of-depiction-conventions-in-sketched-diagrams.pdf",
+            "description": "Lockwood, K., Lovett, A., Forbus, K., Dehghani, M., Usher, J. (2008). pp. 167-173. Proceedings of the Fifth Eurographics conference on Sketch-Based Interfaces and Modeling Eurographics Association.bib",
+            "italics": "<em>Proceedings of the Fifth Eurographics conference on Sketch-Based Interfaces and Modeling Eurographics Association</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/automatic-interpretation-of-depiction-conventions-in-sketched-diagrams.bib",
+            "osf": null,
+            "publishDate": "2008",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Building and Comparing Qualitative Descriptions of Three-Dimensional Design Sketches",
+            "href": "https://www.mola-lab.org/s/building-and-comparing-qualitative-descriptions-of-three-dimensional-design-sketches.pdf",
+            "description": "Lovett, A., Dehghani, M., Forbus, K. (2008). Proceedings of the AAAI Spring Symposium on Control Mechanisms for Spatial Knowledge Processing in Cognitive / Intelligent Systems.bib",
+            "italics": "<em>Proceedings of the AAAI Spring Symposium on Control Mechanisms for Spatial Knowledge Processing in Cognitive / Intelligent Systems</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/building-and-comparing-qualitative-descriptions-of-three-dimensional-design-sketches.bib",
+            "osf": null,
+            "publishDate": "2008",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Effects of Fact Mutability in the Interpretation of Counterfactuals",
+            "href": "https://www.mola-lab.org/s/effects-of-fact-mutability-in-the-interpretation-of-counterfactuals.pdf",
+            "description": "Dehghani, M., Iliev, R., Kaufmann, S. (2007). Proceedings of the Twenty-Ninth Annual Conference of the Cognitive Science Society, Nashville, TN.bib",
+            "italics": "<em>Proceedings of the Twenty-Ninth Annual Conference of the Cognitive Science Society</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/effects-of-fact-mutability-in-the-interpretation-of-counterfactuals.bib",
+            "osf": null,
+            "publishDate": "2007",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Capturing and Categorizing Mental Models of Food Webs using QCM",
+            "href": "https://www.mola-lab.org/s/capturing-and-categorizing-mental-models-of-food-webs-using-QCM.pdf",
+            "description": "Dehghani, M., Unsworth, S., Lovett, A., Forbus, K. D. (2007). Proceedings of the 21st International Workshop on Qualitative Reasoning.bib",
+            "italics": "<em>Proceedings of the 21st International Workshop on Qualitative Reasoning</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/capturing-and-categorizing-mental-models-of-food-webs-using-QCM.bib",
+            "osf": null,
+            "publishDate": "2007",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Machine Reading as a Cognitive Science Research Instrument",
+            "href": "https://www.mola-lab.org/s/machine-reading-as-a-cognitive-science-research-instrument.pdf",
+            "description": "Forbus, K. D., Lockwood, K., Tomai, E., Dehghani, M., Czyz, J. (2007). pp. 55-60. AAAI Spring Symposium: Machine Reading.bib",
+            "italics": "<em>AAAI Spring Symposium: Machine Reading</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/machine-reading-as-a-cognitive-science-research-instrument.bib",
+            "osf": null,
+            "publishDate": "2007",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Incremental Learning of Perceptual Categories for Open-Domain Sketch Recognition",
+            "href": "https://www.mola-lab.org/s/incremental-learning-of-perceptual-categories-for-open-domain-sketch-recognition.pdf",
+            "description": "Lovett, A., Dehghani, M., Forbus, K. (2007). Proceedings of the International Joint Conferences on Artificial Intelligence.bib",
+            "italics": "<em>Proceedings of the International Joint Conferences on Artificial Intelligence</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/incremental-learning-of-perceptual-categories-for-open-domain-sketch-recognition.bib",
+            "osf": null,
+            "publishDate": "2007",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Constructing Spatial Representations of Variable Detail for Sketch Recognition",
+            "href": "https://www.mola-lab.org/s/constructing-spatial-representations-of-variable-detail-for-sketch-recognition.pdf",
+            "description": "Lovett, A., Dehghani, M., Forbus, K. (2007). Proceedings of the AAAI Spring Symposium on Control Mechanisms for Spatial Knowledge Processing in Cognitive / Intelligent Systems.bib",
+            "italics": "<em>Proceedings of the AAAI Spring Symposium on Control Mechanisms for Spatial Knowledge Processing in Cognitive / Intelligent Systems</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/constructing-spatial-representations-of-variable-detail-for-sketch-recognition.bib",
+            "osf": null,
+            "publishDate": "2007",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Modeling Human-Like Rates of Learning Via Analogical Generalization",
+            "href": "https://www.mola-lab.org/s/modeling-human-like-rates-of-learning-via-analogical-generalization.pdf",
+            "description": "Lovett, A., Lockwood, K., Dehghani, M., Forbus, K. (2007). pp. 35. Proceedings of Analogies: Integrating Multiple Cognitive Abilities.bib",
+            "italics": "<em>Proceedings of Analogies: Integrating Multiple Cognitive Abilities</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/modeling-human-like-rates-of-learning-via-analogical-generalization.bib",
+            "osf": null,
+            "publishDate": "2007",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Efficient Genre Classification using Qualitative Representations",
+            "href": "https://www.mola-lab.org/s/efficient-genre-classification-using-qualitative-representations.pdf",
+            "description": "Dehghani, M., Lovett, A. M. (2006). pp. 353-354. Proceedings of the 7th International Conference on Music Information Retrieval.bib",
+            "italics": "<em>Proceedings of the 7th International Conference on Music Information Retrieval</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/efficient-genre-classification-using-qualitative-representations.bib",
+            "osf": null,
+            "publishDate": "2006",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      },
+      {
+            "title": "Efficient Learning of Qualitative Descriptions for Sketch Recognition",
+            "href": "https://mola-lab.squarespace.com/s/efficient-learning-of-qualitative-descriptions-for-sketch-recognition.pdf",
+            "description": "Lovett, A., Dehghani, M., Forbus, K. (2006). Proceedings of the 20th International Workshop on Qualitative Reasoning (QR\u201906).bib",
+            "italics": "<em>Proceedings of the 20th International Workshop on Qualitative Reasoning (QR\u201906)</em>",
+            "supplementary": null,
+            "bib": "https://www.mola-lab.org/s/efficient-learning-of-qualitative-descriptions-for-sketch-recognition.bib",
+            "osf": null,
+            "publishDate": "2006",
+            "type": "Proceeding",
+            "topic": [
+                  "all"
+            ]
+      }
+]
