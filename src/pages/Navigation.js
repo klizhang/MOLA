@@ -68,7 +68,8 @@ class Navigation extends Component{
       
       <div>
 
-        <Nav className="float-end" variant="underline" >
+        {/* <Nav className="float-end" variant="underline" > */}
+        <Nav className="justify-content-end" variant="underline" >
           <Nav.Item>
             <Nav.Link href="/"> Publications</Nav.Link>
           </Nav.Item>

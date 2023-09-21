@@ -81,7 +81,7 @@ function Profile() {
         </Form>
         <Form onSubmit={deleteUser}>
         <Form.Group className="mb-3">
-          <Button type="submit">Delete Account </Button>
+          <Button variant="danger" type="submit">Delete Account </Button>
           </Form.Group>
         </Form>
     </div>
