@@ -13,13 +13,9 @@ app.use(express.json());
 const port = process.env.PORT || 4000;
 
 app.use(express.json());
-app.use("/api/contacts", require("./routes/molaRoutes"));
+app.use("/api/publications", require("./routes/molaRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use(errorHandler);
-app.get('/message', (req, res) => {
-    res.json({ message: "Hello from server!" });
-    // console.log('received message');
-});
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

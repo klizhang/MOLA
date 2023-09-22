@@ -7,7 +7,7 @@ const User = require("../models/userModel");
 //@access public
 const registerUser = asyncHandler(async(req,res) => {
     const {email,password,isAdmin} = req.body;
-    console.log(req.body);
+    // console.log(req.body);
     boolAdmin = false;
     if (isAdmin){
         boolAdmin = true
@@ -65,10 +65,10 @@ const loginUser = asyncHandler(async(req,res) => {
 //@access public
 const checkAdmin = asyncHandler(async(req,res) => {
     const {email} = req.params;
-    console.log("req params: " + req.params.email);
-    console.log("email: " + email);
+    // console.log("req params: " + req.params.email);
+    // console.log("email: " + email);
     const user = await User.findOne({email});
-    console.log(user);
+    // console.log(user);
     res.json(user);
 });
 
@@ -129,5 +129,57 @@ const deleteUser = asyncHandler(async(req,res) => {
     }
 });
 
+//@desc Promote user to admin
+//@route POST /api/users/delete_user
+//@access public
+const promoteAdmin = asyncHandler(async(req,res) => {
+    // console.log(req.body);
+    const {email} = req.body;
+    const user = await User.findOne({email});
+    if(user){
+        // console.log(user);
+        // await User.findById(user._id);
+        const updatedUser = await User.findByIdAndUpdate(
+            user._id,
+            {admin: true},
+            {new:true}
+            );
+        // console.log(updatedUser);
+        res.status(200).json(updatedUser);
+        
+    }
+    else{
+        res.status(401);
+        // localStorage.setItem("userID","");
+        throw new Error("email is not valid");
+    }
+});
 
-module.exports = { registerUser , loginUser , checkAdmin, allUser, changePassword, deleteUser};
+//@desc Demote admin to user
+//@route POST /api/users/delete_user
+//@access public
+const demoteAdmin = asyncHandler(async(req,res) => {
+    console.log(req.body);
+    const {email} = req.body;
+    const user = await User.findOne({email});
+    if(user){
+        console.log("before", user);
+        // await User.findById(user._id);
+        const updatedUser = await User.findByIdAndUpdate(
+            user._id,
+            {admin: false},
+            {new:true}
+            );
+        console.log("after", updatedUser);
+        res.status(200).json(updatedUser);
+        
+    }
+    else{
+        res.status(401);
+        // localStorage.setItem("userID","");
+        throw new Error("email is not valid");
+    }
+});
+
+
+module.exports = { registerUser , loginUser , checkAdmin, allUser, changePassword, deleteUser, promoteAdmin, demoteAdmin};

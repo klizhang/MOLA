@@ -2,8 +2,6 @@ import axios from "axios";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import React, { Component } from "react";
-// import React, {useState} from 'react';
-// import { useNavigate } from 'react-router-dom';
 import { Navigate } from "react-router-dom"
 
 class Login extends Component{
@@ -14,36 +12,28 @@ class Login extends Component{
             isLoggedIn: false,
         };
         this.handleLogin = this.handleLogin.bind(this);
-        
     }
     
     async handleLogin(e) {
-        // Prevent the browser from reloading the page
         e.preventDefault();
-        
         const form = e.target;
         const formData = new FormData(form);
         const formJson = Object.fromEntries(formData.entries());
         try{
             const response = await axios.post('http://localhost:5001/api/users/login',formJson);
             console.log(response.data);
-            // setMessage(JSON.stringify(response.data));
             if (response.data.ID){
                 localStorage.setItem("userID",response.data.ID);
                 localStorage.setItem("email",response.data.email);
                 localStorage.setItem("isAdmin",response.data.isAdmin);
-                // console.log(response.data.isAdmin);
-                // this.setState({user : response.data.Success})
                 this.props.handler(response.data.ID);
-                // navigate('/');
                 this.setState({isLoggedIn : true});
             }
-            console.log(localStorage);
+
         } catch (error) {
             localStorage.setItem("userID","");
             localStorage.setItem("email","");
             console.log(error.response.data.message);
-            // this.setState({user: ""})
             this.props.handler("Blank");
         }
     }

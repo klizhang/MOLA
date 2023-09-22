@@ -55,14 +55,14 @@ function Profile() {
 
   return (
     
-    <div>
+    <div className='mx-5'>
       <h1>My Profile</h1>
-        <Form onSubmit={handlePassword}>
+        <Form onSubmit={handlePassword} className='mx-5'>
           <Form.Group className="mb-3">
-          <Form.Label>Email</Form.Label>
+          <Form.Label><h3>My Email</h3></Form.Label>
           <Form.Control name="email" placeholder={user.email} disabled />
           </Form.Group>
-          <Form.Label>Change Password</Form.Label>
+          <Form.Label><h3>Change Password</h3></Form.Label>
           <Form.Group className="mb-3">
           <Form.Label>Current Password</Form.Label>
           <Form.Control name="current_password" placeholder="Current password"  />
@@ -79,10 +79,14 @@ function Profile() {
           <Button type="submit">Change Password </Button>
           </Form.Group>
         </Form>
-        <Form onSubmit={deleteUser}>
+        <Form onSubmit={deleteUser} className='mx-5'>
+        {user.email !== "admin@mola.lab" ? 
         <Form.Group className="mb-3">
           <Button variant="danger" type="submit">Delete Account </Button>
           </Form.Group>
+          : <h5>You cannot delete this account since you are predefined admin</h5>
+        }
+        
         </Form>
     </div>
     

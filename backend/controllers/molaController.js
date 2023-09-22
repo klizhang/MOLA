@@ -2,7 +2,7 @@ const asyncHandler = require("express-async-handler");
 const Mola = require("../models/molaModel");
 
 //@desc Get all Publications
-//@route GET /api/contacts/:user_id
+//@route GET /api/publications/:user_id
 //@access public
 const getMola = asyncHandler(async(req,res) => {
     const info = await Mola.find();
@@ -19,85 +19,39 @@ const getYears = asyncHandler(async(req,res) => {
 });
 
 //@desc Create new Mola
-//@route POST /api/contacts
+//@route POST /api/publications
 //@access public
-const createContact =  asyncHandler(async(req,res) => {
+const createMola =  asyncHandler(async(req,res) => {
     console.log("the request body is ",req.body);
-    const {name,email,phone,user_id} = req.body;
-    if(!name || !email || !phone){
+    const {title,author,journal,year,type,topics} = req.body;
+    console.log(title);
+    console.log(author);
+    console.log(author + journal);
+    console.log(year);
+    console.log(type);
+    console.log(topics);
+
+    if(!title || !author || !year){
         res.status(400);
         throw new Error("All fields are mandatory");
     }
-    if(!user_id){
-        res.status(400);
-        throw new Error("user_id invalid");
-    }
-    const contact = await Mola.create({
-        name,
-        email,
-        phone,
-        // user_id: req.user.id
-        user_id
+    
+    const mola = await Mola.create({
+        title: title,
+        href: " ",
+        description: author + journal,
+        italics: " ",
+        supplementary: null,
+        bib: null,
+        osf: null,
+        publishDate: year,
+        type: type,
+        topic: topics
     });
-    res.status(201).json(contact);
+    console.log(mola);
+    res.status(201).json(mola);
     
 });
 
-//@desc Get contact
-//@route GET /api/contacts/:id
-//@access public
-const getContact = asyncHandler(async(req,res) => {
-    const contact = await Mola.findById(req.params.id);
-    if(!contact){
-        res.status(404);
-        throw new Error("Contact not found");
-    }
-    res.status(200).json(contact);
-});
 
-
-//@desc Update contact
-//@route PUT /api/contacts/:id
-//@access public
-const updateContact = asyncHandler(async(req,res) => {
-    const contact = await Mola.findById(req.params.id);
-    if(!contact){
-        res.status(404);
-        throw new Error("Contact not found");
-    }
-
-    if(contact.user_id.toString() != req.user.id){
-        res.status(403);
-        throw new Error("User don't have permission to update other user contacts");
-    }
-
-    const updatedContact = await Mola.findByIdAndUpdate(
-        req.params.id,
-        req.body,
-        {new: true}
-        );
-    
-    res.status(200).json(updatedContact);
-});
-
-//@desc Delte contact
-//@route DELETE /api/contacts
-//@access public
-const deleteContact = asyncHandler(async(req,res) => {
-    const contact = await Mola.findById(req.params.id);
-    if(!contact){
-        res.status(404);
-        throw new Error("Contact not found");
-    }
-
-    if(contact.user_id.toString() != req.user.id){
-        res.status(403);
-        throw new Error("User don't have permission to delete other user contacts");
-    }
-
-    await Mola.findByIdAndDelete(req.params.id);
-    // await Contact.remove();
-    res.status(200).json(contact);
-});
-
-module.exports = {getMola, getYears, createContact, getContact, updateContact, deleteContact};
+module.exports = {getMola, getYears, createMola};

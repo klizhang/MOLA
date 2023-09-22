@@ -18,20 +18,6 @@ const Register = () => {
     }
   }
   return (
-    // <form method="post" onSubmit={handleRegister}>
-    //   <h1> REGISTER</h1>
-    //   <label>
-    //     username: <input name="username"/>
-    //   </label>
-    //   <label>
-    //     Email: <input name="email"/>
-    //   </label>
-    //   <label>
-    //     Password: <input name="password"/>
-    //   </label>
-    //   <button type="reset">Reset form</button>
-    //   <button type="submit">Submit form</button>
-    // </form>
     <Form onSubmit={handleRegister}>
       <Form.Group className="mb-3" >
       <Form.Label>Email address</Form.Label>
@@ -43,9 +29,9 @@ const Register = () => {
       <Form.Control type="password" name="password" placeholder="Password" />
       </Form.Group>
 
-      <Form.Group className="mb-3" >
+      {/* <Form.Group className="mb-3" >
       <Form.Check type="checkbox" name="isAdmin" label="Admin" />
-      </Form.Group>
+      </Form.Group> */}
       <Button variant="primary" type="submit">
       Submit
       </Button>

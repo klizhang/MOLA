@@ -32,10 +32,10 @@ class Navigation extends Component{
         return (
           <>
             <Nav.Item>
-              <Nav.Link href="/profile" eventKey="link-3"> Profile</Nav.Link>
+              <Nav.Link href="/admin" eventKey="link-3"> Admin</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/admin" eventKey="link-4"> Admin</Nav.Link>
+              <Nav.Link href="/profile" eventKey="link-4"> Profile</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="/logout" eventKey="link-5"> Log Out</Nav.Link>
@@ -48,7 +48,7 @@ class Navigation extends Component{
     return (
       <>
         <Nav.Item>
-          <Nav.Link href="/profile" eventKey="link-3"> Profile</Nav.Link>
+          <Nav.Link href="/profile" eventKey="link-4"> Profile</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="/logout" eventKey="link-5"> Log Out</Nav.Link>
@@ -69,7 +69,7 @@ class Navigation extends Component{
       <div>
 
         {/* <Nav className="float-end" variant="underline" > */}
-        <Nav className="justify-content-end" variant="underline" >
+        <Nav className="justify-content-end me-5 mt-3" variant="underline" >
           <Nav.Item>
             <Nav.Link href="/"> Publications</Nav.Link>
           </Nav.Item>

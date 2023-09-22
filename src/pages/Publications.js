@@ -1,10 +1,10 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-// import Button from 'react-bootstrap/Button';
-// import Form from 'react-bootstrap/Form';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+
+import {parseBibFile, normalizeFieldValue} from "bibtex";
 
 
 const Publications = () => {
@@ -15,44 +15,49 @@ const Publications = () => {
     const [filter_year, setFilterYear] = useState('All');
     const [filter_type, setFilterType] = useState('All');
     const [filter_topic, setFilterTopic] = useState('All');
+    const [filter_search, setFilterSearch] = useState('');
+    const [selectedFiles, setSelectedFiles] = useState([]);
+    const [isAdmin, setIsAdmin] = useState(false);
+
+    const getMessage = async () => {
+        const response = await axios.get('http://localhost:5001/api/publications/all/');
+        const data = await response.data;
+        const res_years = new Set();
+        for (let i=0; i<data.length;i++){
+            res_years.add(data[i].publishDate);
+        }
+        const res_types = new Set();
+        for (let i=0; i<data.length;i++){
+            res_types.add(data[i].type);
+        }
+        const res_topics = new Set();
+        for (let i=0; i<data.length;i++){
+            for (let j=0; j<data[i].topic.length;j++) {
+                res_topics.add(data[i].topic[j]);
+            }
+        }
+        res_topics.delete("all");
+        setMessage(data);
+        setYears(Array.from(res_years));
+        setTypes(Array.from(res_types).sort());
+        setTopics(Array.from(res_topics).sort());
+    };
 
     useEffect(() => {
-        const getMessage = async () => {
-            const response = await axios.get('http://localhost:5001/api/contacts/allcontacts/');
+        const checkAdmin = async () => {
+            const response = await axios.get('http://localhost:5001/api/users/admin/' + localStorage.getItem("email"));
             const data = await response.data;
-            const res_years = new Set();
-            for (let i=0; i<data.length;i++){
-                res_years.add(data[i].publishDate);
+            if (data !== null) {
+                setIsAdmin(data.admin);
             }
-            const res_types = new Set();
-            for (let i=0; i<data.length;i++){
-                res_types.add(data[i].type);
+            else{
+                setIsAdmin(false);
             }
-            const res_topics = new Set();
-            for (let i=0; i<data.length;i++){
-                for (let j=0; j<data[i].topic.length;j++) {
-                    res_topics.add(data[i].topic[j]);
-                }
-            }
-            res_topics.delete("all");
-            // console.log(data);
-            setMessage(data);
-            setYears(Array.from(res_years));
-            setTypes(Array.from(res_types).sort());
-            setTopics(Array.from(res_topics).sort());
-            // setTopics(myarr);
-            // console.log(res_topics);  
-        };
-        
+        }
+        checkAdmin();
         getMessage();
-        // setFilterYear("All");
-        // setFilterType("All");
-        // setFilterTopic("All");
-
-        // console.log(years);
         
     }, []);
-
 
     function lower(obj) {
         for (var prop in obj) {
@@ -67,7 +72,7 @@ const Publications = () => {
       }
 
     async function filterMessage(filter_name,filter_value) {
-        const response = await axios.get('http://localhost:5001/api/contacts/allcontacts/');
+        const response = await axios.get('http://localhost:5001/api/contacts/all/');
         const data = await response.data;
         var filtered_publications = data;
         if (filter_name === "publishDate") {
@@ -84,7 +89,6 @@ const Publications = () => {
         }
         else if (filter_name === "topic") {
             filtered_publications = filtered_publications.filter(function (item) {
-                // return item.publishDate === filter_value.item;
                 return item.topic.includes(filter_value.item);
             });
             setFilterTopic(filter_value.item);
@@ -117,11 +121,10 @@ const Publications = () => {
             var array_filter = Array.from(filter_set);
             const filtered_publications_set = new Set();
             for (let i = 0; i<array_filter.length;i++) {
-                console.log(array_filter[i]._id);
-                // filtered_publications = filtered_publications.filter(x => x._id === array_filter[i]._id);
                 filtered_publications_set.add(filtered_publications.find(x => x._id === array_filter[i]._id));
             }
             filtered_publications = Array.from(filtered_publications_set);
+            setFilterSearch(filter_value);
         }
         else{
             setFilterYear("All");
@@ -157,16 +160,82 @@ const Publications = () => {
         filterMessage("search",formJson.search);
     }
 
+    function getName(str) {
+        var first = str.split('{')[1];
+        return first.split(',')[0];
+    }
+    function getType(str){
+        var type = str.split('{')[0];
+        return type.slice(1);
+    }
+
+    async function handleBib(event) {
+        event.preventDefault();
+        console.log(selectedFiles);
+        console.log(selectedFiles.length);
+        selectedFiles.forEach(async (element) => {
+            var type = getType(element);
+            if (type === "inproceedings") {
+                type = "Proceeding";
+            }
+            const name = getName(element);
+            const bibFile = parseBibFile(element);
+            const entry = bibFile.getEntry(name); // Keys are case-insensitive
+            const title = normalizeFieldValue(entry.getField("TITLE"));
+            const author = normalizeFieldValue(entry.getField("AUTHOR"));
+            var journal = normalizeFieldValue(entry.getField("JOURNAL"));
+            if (!journal) {
+                journal = "";
+            }
+            const year = normalizeFieldValue(entry.getField("YEAR"));
+            var topics = name.split(year);
+            topics.splice(0,1);
+            console.log(topics);
+            if(topics[0] === title.split(" ")[0].toLowerCase()) {
+                topics = ["all"];
+            }
+            const inputData = {};
+            inputData["title"] = title;
+            inputData["author"] = author;
+            inputData["journal"] = journal;
+            inputData["year"] = year;
+            inputData["type"] = type;
+            inputData["topics"] = topics;
+            console.log(inputData);
+            const response = await axios.post('http://localhost:5001/api/publications/',inputData);
+            await response.data;
+            getMessage();
+
+        });
+
+      }
+
+    function onChangeFile(event) {
+        var file;
+        // var file = event.target.files[0];
+        const files = []
+        // console.log(file);
+        for (let i = 0; i<event.target.files.length;i++){
+            file = event.target.files[i];
+            var reader = new FileReader();
+            reader.onload = function(event) {
+                files.push(event.target.result);
+            };
+            reader.readAsText(file);
+        }
+        setSelectedFiles(files);
+      }
+
     function FilterComponent(props){
         return (
-        <table className="mx-5">
+        <table className="mx-auto">
             <tbody>
-                {props.filter_year !== "All" || props.filter_type !== "All" || props.filter_topic !== "All" ? 
+                {props.filter_year !== "All" || props.filter_type !== "All" || props.filter_topic !== "All" || props.filter_search !== "" ? 
                 <tr>
                     <td>
                         <Form onSubmit={() => filterMessage("publishDate","")}>
-                            <Form.Group>
-                            <Button type="submit">See All </Button>
+                            <Form.Group >
+                            <Button  variant="secondary" type="submit">See All </Button>
                             </Form.Group>
                         </Form>
                     </td>
@@ -180,8 +249,6 @@ const Publications = () => {
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             {years.map((item, index) => (
-                                // <Dropdown.Item key={index} eventKey={item} onClick={function(evt){console.log(evt); console.log("here")}}>
-                                // <Dropdown.Item key={index} eventKey={item} onClick={filterMessage("publishDate","2020")}>
                                 <Dropdown.Item key={index} eventKey={item} onClick={() => filterMessage("publishDate",{item})}>
                                         {item}
                                 </Dropdown.Item>
@@ -200,7 +267,6 @@ const Publications = () => {
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             {types.map((item, index) => (
-                                // <Dropdown.Item key={index} href={item}>
                                 <Dropdown.Item key={index} eventKey={item} onClick={() => filterMessage("type",{item})}>
                                     {item}
                                 </Dropdown.Item>
@@ -219,7 +285,6 @@ const Publications = () => {
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             {topics.map((item, index) => (
-                                // <Dropdown.Item key={index} href={item}>
                                 <Dropdown.Item key={index} eventKey={item} onClick={() => filterMessage("topic",{item})}>
                                         {item}
                                 </Dropdown.Item>
@@ -233,12 +298,31 @@ const Publications = () => {
                     <td>
                         <Form onSubmit={handleSearch}>
                         <Form.Group className="mb-3" controlId="searchGroup">
-                            <Form.Control name="search" type="text" placeholder="Search" />
+                            <Form.Control name="search" type="text" placeholder="Search" defaultValue={filter_search} />
                         </Form.Group>
                         </Form>
                     </td>
                     
                 </tr>
+                {isAdmin? 
+                    <tr>
+                    <td>
+                        <Form onSubmit={handleBib}>
+                            <Form.Group controlId="formFileMultiple" className="mb-3">
+                                <Form.Label>Upload bib file(s)</Form.Label>
+                                {/* <Form.Control type="file" multiple onChange={(e) => handleChangeBib(e.target.files[0])}/> */}
+                                <Form.Control name="files" type="file" accept=".bib" multiple onChange={onChangeFile}/>
+                            </Form.Group>
+                            <Form.Group >
+                            <Button  variant="secondary" type="submit">Upload file(s) </Button>
+                            </Form.Group>
+
+                        </Form>
+                    </td>
+
+                </tr>
+                : null}
+                
             </tbody>
         </table>
         )
@@ -253,8 +337,9 @@ const Publications = () => {
         
         <div>
             <div > <h1 className="text-start ms-5"> Publications</h1></div>
-            <div className="d-flex justify-content-between" >
-                <div className="mx-5"> <FilterComponent filter_year={filter_year} filter_type={filter_type} filter_topic={filter_topic}/> </div>
+            <div className="d-flex justify-content-start" >
+                <div className="w-25"> <FilterComponent filter_year={filter_year} filter_type={filter_type} filter_topic={filter_topic} filter_search={filter_search}/> </div>
+                
                 <div className="">
                     <table>
                         {message.map((item, index) => (
@@ -272,11 +357,10 @@ const Publications = () => {
                             </tbody>
                             ))
                         }
+                        {message.length === 0 ? <tbody><tr><td>No results</td></tr></tbody> : null}
                     </table>   
                 </div>
             </div>
-            {/* <div style={{display: 'flex', justifyContent:'flex-front'}}> <FilterComponent/> </div> */}
-            
         </div>
         
     );

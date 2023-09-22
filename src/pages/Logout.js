@@ -12,6 +12,8 @@ class Logout extends Component{
       localStorage.setItem("userID","");
       localStorage.removeItem("username");
       localStorage.setItem("isAdmin",null);
+      localStorage.removeItem("email");
+
     }
     componentWillMount() {
       // axios commands to get navigation bar setting it newpage state

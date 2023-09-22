@@ -2,11 +2,6 @@ const mongoose = require("mongoose");
 
 const molaSchema = mongoose.Schema(
     {
-        // user_id: {
-        //     type: mongoose.Schema.Types.ObjectId,
-        //     required: true,
-        //     ref: "User",
-        // },
         title: {
             type: String,
             required: [true, "Could not find title"],
