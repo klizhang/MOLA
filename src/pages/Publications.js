@@ -20,7 +20,7 @@ const Publications = () => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     const getMessage = async () => {
-        const response = await axios.get('http://localhost:5001/api/publications/all/');
+        const response = await axios.get(process.env.REACT_APP_URL + '/api/publications/all/');
         const data = await response.data;
         const res_years = new Set();
         for (let i=0; i<data.length;i++){
@@ -45,7 +45,7 @@ const Publications = () => {
 
     useEffect(() => {
         const checkAdmin = async () => {
-            const response = await axios.get('http://localhost:5001/api/users/admin/' + localStorage.getItem("email"));
+            const response = await axios.get(process.env.REACT_APP_URL + '/api/users/admin/' + localStorage.getItem("email"));
             const data = await response.data;
             if (data !== null) {
                 setIsAdmin(data.admin);
@@ -72,7 +72,7 @@ const Publications = () => {
       }
 
     async function filterMessage(filter_name,filter_value) {
-        const response = await axios.get('http://localhost:5001/api/contacts/all/');
+        const response = await axios.get(process.env.REACT_APP_URL + '/api/publications/all/');
         const data = await response.data;
         var filtered_publications = data;
         if (filter_name === "publishDate") {
@@ -202,7 +202,7 @@ const Publications = () => {
             inputData["type"] = type;
             inputData["topics"] = topics;
             console.log(inputData);
-            const response = await axios.post('http://localhost:5001/api/publications/',inputData);
+            const response = await axios.post(process.env.REACT_APP_URL + '/api/publications/',inputData);
             await response.data;
             getMessage();
 

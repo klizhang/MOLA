@@ -15,8 +15,7 @@ class Logout extends Component{
       localStorage.removeItem("email");
 
     }
-    componentWillMount() {
-      // axios commands to get navigation bar setting it newpage state
+    componentDidMount() {
       this.props.handler("Blank");
     }
     render() {

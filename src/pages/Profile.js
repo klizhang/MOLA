@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 
 function Profile() {
-    // Initialize the state to an empty array of todos.
   const [user, setUser] = useState([]);
   const navigate = useNavigate();
 
@@ -17,7 +16,7 @@ function Profile() {
     const formJson = Object.fromEntries(formData.entries());
     console.log(formJson);
     try{
-      const response = await axios.post('http://localhost:5001/api/users/change_password',formJson);
+      const response = await axios.post(process.env.REACT_APP_URL + '/api/users/change_password',formJson);
       console.log(response.data);
     } catch (error) {
       console.log(error.response.data.message);
@@ -32,7 +31,7 @@ function Profile() {
     const formJson = Object.fromEntries(formData.entries());
     console.log(formJson);
     try{
-      const response = await axios.post('http://localhost:5001/api/users/delete_user',formJson);
+      const response = await axios.post(process.env.REACT_APP_URL + '/api/users/delete_user',formJson);
       console.log(response.data);
       navigate("/logout");
     } catch (error) {
@@ -42,13 +41,13 @@ function Profile() {
 
   useEffect(() => {
     const findUser = async () => {
-        const response = await axios.get('http://localhost:5001/api/users/admin/' + localStorage.getItem("email"));
-        const data = await response.data;
-        // setAdmin(data.admin);
-        console.log(data);
-        setUser(data);
+      const response = await axios.get(process.env.REACT_APP_URL + '/api/users/admin/' + localStorage.getItem("email"));
+      const data = await response.data;
+      console.log(data);
+      setUser(data);
     }
     findUser();
+    
   }, []);
 
 //   console.log(todos);

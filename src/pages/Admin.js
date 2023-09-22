@@ -11,8 +11,21 @@ function Admin() {
   const [users, setUsers] = useState([]);
   const [admins, setAdmins] = useState([]);
 
+  useEffect(() => {
+    const checkAdmin = async () => {
+        const response = await axios.get(process.env.REACT_APP_URL + '/api/users/admin/' + localStorage.getItem("email"));
+        const data = await response.data;
+        setIsAdmin(data.admin);
+        setCurrent(localStorage.getItem("email"));
+        setPredefined("admin@mola.lab");
+    }
+    checkAdmin();
+    getAllUsers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const getAllUsers = async () => {
-    const response = await axios.get('http://localhost:5001/api/users/all/');
+    const response = await axios.get(process.env.REACT_APP_URL + '/api/users/all/');
     const data = await response.data;
     const users_set = new Set();
     const admins_set = new Set();
@@ -26,31 +39,17 @@ function Admin() {
     }
     setUsers(Array.from(users_set));
     setAdmins(Array.from(admins_set));
-};
-
-  useEffect(() => {
-    const checkAdmin = async () => {
-        const response = await axios.get('http://localhost:5001/api/users/admin/' + localStorage.getItem("email"));
-        const data = await response.data;
-        // setAdmin(data.admin);
-        // console.log(data.admin);
-        setIsAdmin(data.admin);
-        setCurrent(localStorage.getItem("email"));
-        setPredefined("admin@mola.lab");
-    }
-    checkAdmin();
-    getAllUsers();
-  }, []);
+  };  
 
   async function handleEdit(input) {
     console.log(input);
     if (!input.admin) {
-      const response = await axios.post('http://localhost:5001/api/users/promote_admin/',input);
+      const response = await axios.post(process.env.REACT_APP_URL + '/api/users/promote_admin/',input);
       const data = await response.data;
       console.log(data);
     }
     else{
-      const response = await axios.post('http://localhost:5001/api/users/demote_admin/',input);
+      const response = await axios.post(process.env.REACT_APP_URL + '/api/users/demote_admin/',input);
       const data = await response.data;
       console.log(data);
     }
@@ -71,7 +70,7 @@ function Admin() {
   }
 
   async function filterSearch(search_item) {
-    const response = await axios.get('http://localhost:5001/api/users/all/');
+    const response = await axios.get(URL + '/api/users/all/');
     const data = await response.data;
     const users_set = new Set();
     const admins_set = new Set();

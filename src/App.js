@@ -1,17 +1,15 @@
 import "./App.css";
 import Navigation from './pages/Navigation';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from './pages/Home';
 import NoPage from "./pages/NoPage";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Publications from "./pages/Publications";
-// import Admin from "./pages/Admin";
 import Admin from "./pages/Admin";
 import Logout from "./pages/Logout";
 import React, { Component } from "react";
 import Profile from "./pages/Profile";
-// import React, {useState} from 'react';
+
 
 // function App() {
 //   return (

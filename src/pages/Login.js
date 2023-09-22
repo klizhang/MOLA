@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import { Navigate } from "react-router-dom"
 
 class Login extends Component{
+    
     constructor(props){
         super(props);
         this.state = {
@@ -12,6 +13,7 @@ class Login extends Component{
             isLoggedIn: false,
         };
         this.handleLogin = this.handleLogin.bind(this);
+
     }
     
     async handleLogin(e) {
@@ -20,7 +22,7 @@ class Login extends Component{
         const formData = new FormData(form);
         const formJson = Object.fromEntries(formData.entries());
         try{
-            const response = await axios.post('http://localhost:5001/api/users/login',formJson);
+            const response = await axios.post(process.env.REACT_APP_URL + '/api/users/login',formJson);
             console.log(response.data);
             if (response.data.ID){
                 localStorage.setItem("userID",response.data.ID);

@@ -10,7 +10,7 @@ const Register = () => {
     const formData = new FormData(form);
     const formJson = Object.fromEntries(formData.entries());
     try{
-      const response = await axios.post('http://localhost:5001/api/users/register',formJson);
+      const response = await axios.post(process.env.REACT_APP_URL + '/api/users/register',formJson);
       console.log(response.data);
       // setMessage(JSON.stringify(response.data));
     } catch (error) {
